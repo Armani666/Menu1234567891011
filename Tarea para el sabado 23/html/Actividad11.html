@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-image:url(../imagenes/__57.jpg);"></body>
+        <meta charset="UTF-8">
+        <title>Ejercicio2</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+        <script type="text/javascript">
+            var o=0
+            function Boton() {
+                if(o==0){
+                    document.getElementById("email").style.display="none";
+                    document.getElementById("pass").style.display="none";
+                    document.getElementById("sub").style.display="none";
+                    o=1
+                    document.getElementById("ocultar").value="Mostrar";
+                }
+                else{
+                    document.getElementById("email").style.display="inline";
+                    document.getElementById("pass").style.display="inline";
+                    document.getElementById("sub").style.display="inline";
+                    o=0;
+                    document.getElementById("ocultar").value="Ocultar";
+                }
+            }
+            
+            
+        </script>
+    </head>
+    <body>
+        <form action="">
+            <input type="button" Id="ocultar" value="Ocultar" onclick="Boton()">
+            <br>
+            <br>
+            <input type="email" Id="email" placeholder="Correo">
+            <br>
+            <input type="password" Id="pass" placeholder="Contraseña">
+            <br>
+            <br>
+            <input type="submit" Id="sub">
+            
+
+            
+        </form>
+        
+    </body>
+</html>

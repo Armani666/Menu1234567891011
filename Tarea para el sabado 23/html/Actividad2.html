@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  </head>
+  <body style="background-image:url(../imagenes/__57.jpg);">
+    <section>
+      <form  align="center" style="margin-top:100px" color="white">
+          <label>Cuál es tu región actual :</label>
+        <select name="zona">
+          <option value="Norte">Norte</option>
+          <option value="Sur">Sur</option>
+          <option value="Centro">Centro</option>
+        </select>
+          <input type="button" onclick="votar();" value="Votar">
+      </form>
+
+    <article  style="margin-top:100px;" style="height: 100px;">    </article>
+      
+        <script type="text/javascript">
+          /*.js*/
+        var nombre=prompt("Ingrese su nombre:")
+          var select = document.querySelector('select');
+          var para = document.querySelector('article');
+          function votar(){
+            var region = select.value;
+            switch (region) {
+              case 'Norte':
+                   para.textContent = nombre+' dio su voto en la zona: '+ region;
+                break;
+              case 'Sur':
+                    para.textContent = nombre+' dio su voto en la zona: '+ region;
+                break;
+              case 'Centro':
+                    para.textContent = nombre+' dio su voto en la zona: '+ region;
+                break;
+              }
+          }
+        </script>
+    </section>
+
+  </body>
+</html>

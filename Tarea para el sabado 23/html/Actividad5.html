@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-image:url(../imagenes/__57.jpg);"></body>
+        <meta charset="UTF-8">
+        <title>Ejercicio5</title>
+        <script type="text/javascript">
+        var bruto;
+        var neto;
+        var por;
+//bruto es el total
+//neto es lo que persive el trabajador
+        bruto=prompt("Cual es el importe bruto: ");
+        
+        if(bruto>150000){
+            alert("Se aplica 16% de impuesto");
+            
+            por=(bruto/100)*16;
+            neto=bruto-por;
+
+            alert("El limporte neto es de "+neto);
+        }
+        else{
+            alert("Se aplica 10% de impuesto");
+
+            por=(bruto/100)*10;
+            neto=bruto-por;
+
+            alert("El importe neto es de "+neto);
+        }
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

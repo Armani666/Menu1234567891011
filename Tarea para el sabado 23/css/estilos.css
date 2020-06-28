@@ -1,0 +1,113 @@
+/*@import url('https://fonts.googleapis.com/css?family=Mogra');*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-size:16px;
+}
+
+body{
+	font-size:0px;
+	background:url(../imagenes/716f5ee8315ce635d4ff258e9f4f4b6c.jpg)repeat center fixed;
+	padding-top:47px;
+}
+		
+#menuPrincipal{
+	background:url(../imagenes/716f5ee8315ce635d4ff258e9f4f4b6c.jpg) repeat center fixed;
+	text-align:center;
+	position:fixed;
+	width:100%;
+	top:0px;
+	z-index:1;
+}
+	
+	.opcionMenuPrincipal{
+		display:inline-block;
+		text-decoration:none;
+		color:rgb(0, 0, 0);
+		font-family: 'Pangolin', cursive;
+		padding:25px 100px;
+		cursor:pointer;
+		position:relative;
+		font-size:3rem;
+	}
+	h3{
+		position:relative;
+	color: rgb(0, 0, 0);
+
+	margin:50px auto;
+	text-align:center;
+	font-size:5rem;
+	}
+	
+	.opcionMenuPrincipal:hover{
+		background-color:rgba(250, 0, 0, 0.363);
+	}
+		
+		
+.contenido{
+	width:100%;
+	/*height:600px;*/ /* comentar */
+	overflow:hidden;
+	min-width:320px;
+}
+
+.quienesSomos{
+	position:relative;
+	color: orangered;
+	margin:150px auto;
+	font-size:1.5rem;
+}
+	
+	select{
+		display:block;
+		margin:10px auto;
+	}
+
+	input[type="text"]{
+		width:80%;
+		padding:10px;
+		margin-bottom:10px;
+	}
+	
+	input[type="button"], .quienesSomos a ,span{
+		width:30%;
+		padding:5px;
+		margin-bottom:5px;
+		display:block;
+		background-color:#4aeb0096;
+		color:rgb(0, 0, 0);
+		cursor:pointer;
+		border:none;
+		font-size:14px;
+		font-family:Arial;
+		font-weight:normal;
+		margin:0 auto;
+		position:relative;
+	}
+	
+	#estilo div{
+		width:30px;
+		height:30px;
+		border:1px solid #000;
+		display:inline-block;
+		border-radius:50%;
+		margin:5px 10px;
+		cursor:pointer;
+		position:relative;
+	}
+	
+	input[type="button"]:active, .quienesSomos a:active , span:active, #estilo div:active{
+		top:1px;
+	}
+	
+footer{
+	background-color:rgba(133, 13, 13, 0.9);
+	height:100px;
+}		
+		
+	

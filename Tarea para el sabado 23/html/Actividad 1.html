@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <title>Cajas</title>
+  </head>
+  <body onload="Cajas();" style="background:#272627; background-image: url(../imagenes/__57.jpg);"></body>
+
+    <script type="text/javascript">
+     /*.js*/
+      function Cajas (){
+        var n=prompt("Ingrese la cantidad deseada de cajas a insertar");
+           if (n<=8) {
+             var i=1;
+             while (i<=n) {
+               document.write('<article id="caja" style="background-color: #10375c; color:#f3c623;width:70px; height:50px; float:left;margin-left:15px; margin-top:15px;" align="center">Caja'+i+'</article>');
+               i++;
+             }
+           }else {
+             var p=1;
+             while (p<=n) {
+               document.write('<article id="caja" style="background-color:#f3c623; color:#10375c; margin-top:15px;" align="center">Caja'+ i +'</article>');
+               j++;
+             }
+           }
+        }
+    </script>
+  </body>
+</html>

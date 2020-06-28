@@ -1,0 +1,74 @@
+*{
+	font-family: 'Sriracha', cursive;
+  }
+  body{
+    font-size:0px;
+  background: url(../imagenes/Jeepeta.jpg)no-repeat center fixed;
+  background-size: cover; 
+  padding-top:47px;
+	}
+	h6{
+		height: 10px;
+		width: 20rem;
+	}
+  .contenido{
+	margin-top: 50px;
+	margin-left: 360px;
+	background-color:black;
+	width: 50%;
+	height: 80%;
+	opacity: 0.5;
+	text-align: center;
+	color:black;
+	border-radius: 25px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border: solid  white;
+  }
+  .Opciones{
+	  margin-left:15px;
+	  margin-top: 15px;
+	  margin-right:15px;
+	  border: solid black;
+	  zoom: 1;
+  }
+  .Opciones li{
+	list-style: none;
+  }
+  input{
+	background-color:#C267FF;
+	width:100px;
+	height:100px;
+	color:whites;
+  }
+  
+  .footer{
+	margin-top:180px;
+	background-color:white;
+	text-align: left;
+	height:300px;
+	border-radius: 50px;
+	opacity: 0.75;
+  }
+  .footer h4 {
+	margin-left: 120px;
+  }
+  .footer p {
+	margin-left: 120px;
+  }
+  .parrafo{
+	margin-left: 50px;
+  }
+  
+  .footer img{
+	margin-top: 50px;
+	margin-right: 50px;
+	height:200px;
+	width: 200px;
+	margin-left: 10px;
+	border-radius: 25px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }

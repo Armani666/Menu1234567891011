@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body style="background-image:url(../imagenes/__57.jpg);"></body>
+        <meta charset="UTF-8">
+        <title>Ejercicio6</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+        <script type="text/javascript">
+            var sueldo=40000;
+            var por;
+            var aumento;
+            var tiemp;
+
+            tiemp=parseInt(prompt("Cuantos años llevas trabajando?"));
+
+            if(tiemp>10){
+                por=10;
+            }
+            else{
+                if(tiemp>5){
+                    por=7;
+                }
+                else{
+                    if(tiemp>3){
+                        por=5;
+
+                    }
+                    else{
+                        por=3;
+                    }
+                }
+            }
+
+            aumento=(sueldo/100)*por;
+            sueldo=sueldo+aumento;
+            alert("Tu aumento es de "+por+"%");
+            alert("Se aumentan "+aumento+" euros a tu sueldo");
+            alert("Tu sueldo ahora es de "+sueldo);
+            
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

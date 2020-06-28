@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <title>SUMA DE NUMEROS</title>
+
+  </head>
+  <body style="background-image:url(../imagenes/__57.jpg);">
+    <div  style="width:250px; height:50px; margin-top:50px;">
+      <h1>Calcular Suma</h1>
+      <button type="button" onclick="Suma();"> - Calcular Operación-</button>
+
+    </div>
+
+    <script type="text/javascript">
+    /*.js*/
+    function Suma()  {
+       var x=parseInt(prompt("Ingrese el primer numero:"));
+       var suma=0;
+       while (x>0) {
+         suma=suma+x;
+         alert("La suma actual es: " + suma);
+         var x=parseInt(prompt("Ingrese el segundo numero:"));
+        }
+      }
+    </script>
+
+  </body>
+</html>
